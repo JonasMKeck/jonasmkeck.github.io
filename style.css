@@ -94,7 +94,7 @@ body {
   background: var(--card);
   border: 1px solid var(--line);
   padding: 22px 24px;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 .meta {
