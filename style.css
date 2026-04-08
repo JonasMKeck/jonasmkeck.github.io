@@ -121,9 +121,13 @@ body {
 }
 
 .entry-card h2 {
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   margin-bottom: 3px;
   line-height: 1.0;
+}
+
+.entry-card p {
+  font-size: 0.95rem;
 }
 
 .entry-card .meta {
