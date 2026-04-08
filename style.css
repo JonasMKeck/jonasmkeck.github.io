@@ -120,6 +120,19 @@ body {
   border-radius: 0px;
 }
 
+.entry-card h2 {
+  margin-bottom: 6px;
+}
+
+.entry-card .meta {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.entry-card .link-placeholder {
+  margin-top: 10px;
+}
+
 .meta {
   color: var(--muted);
   font-size: 0.95rem;
