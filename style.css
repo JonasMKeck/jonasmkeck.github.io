@@ -1,10 +1,10 @@
 :root {
-  --bg: #f1eee1;
-  --text: #0a2e07;
-  --muted: #535b68;
-  --line: #0a2e07;
-  --accent: #0a2e07;
-  --card: #f8f6ed;
+  --bg: rgb(248, 247, 241);
+  --text: rgb(31, 30, 26);
+  --muted: rgb(106, 101, 91);
+  --line: rgb(216, 211, 198);
+  --accent: rgb(31, 30, 26);
+  --card: rgb(252, 251, 247);
 }
 
 * {
