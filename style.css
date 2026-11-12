@@ -113,6 +113,20 @@ body {
   margin-bottom: 28px;
 }
 
+.about-layout {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.about-photo {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+}
+
 .entry-card {
   background: var(--card);
   border: 1px solid var(--line);
@@ -230,5 +244,10 @@ a {
 
   .page-content h1 {
     font-size: 1.8rem;
+  }
+
+  .about-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
   }
 }
